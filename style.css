@@ -543,7 +543,7 @@ html {
 }
 
 .projects-title-wrap {
-    text-align: center;
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -842,7 +842,7 @@ html {
 }
 
 .footer-top {
-  background-image: url(./assets/images/footer.png);
+  background-image: url("./assets/images/footer.png");
   background-position: center;
   display: flex;
   justify-content: space-between;
@@ -1049,30 +1049,9 @@ html {
   width: 100%;
 }
 
+/* RESPONSIVE */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* =========================================
-   RESPONSIVE MEDIA QUERIES
-========================================= */
-
-
-/* ===============================
-   TABLETS
-================================ */
+/* TABLETS */
 @media (max-width: 992px) {
   .container {
     padding: 0 1rem 1rem;
@@ -1215,25 +1194,19 @@ html {
   }
 }
 
+/* MOBILE RESPONSIVE FIX */
 
-
-/* =========================================
-   MOBILE RESPONSIVE FIX
-========================================= */
 @media (max-width: 768px) {
-
-  /* ===== NAVBAR ===== */
+  /* NAVBAR */
   .navbar {
     padding: 16px;
     position: relative;
   }
 
-  /* hide nav links */
   .nav-links {
     display: none;
   }
 
-  /* hamburger icon */
   .hamburger-icon {
     display: block;
     font-size: 24px;
@@ -1244,16 +1217,14 @@ html {
     transform: translateY(-50%);
     cursor: pointer;
   }
-.btn-outline{
+  .btn-outline {
     display: none;
-}
-  /* optional button resize */
+  }
   .btn-outline {
     padding: 10px 16px;
     font-size: 9px;
   }
 
-  /* ===== REMOVE HERO IMAGE ===== */
   .hero-center,
   .hero-char {
     display: none !important;
@@ -1287,8 +1258,8 @@ html {
     justify-content: center;
     padding: 14px;
     border-radius: 16px;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
   }
 
   .hero-title {
@@ -1311,7 +1282,6 @@ html {
     justify-content: center;
   }
 
-  /* ===== HOW WE WORK FIX ===== */
   .process {
     padding: 40px 14px;
   }
@@ -1336,8 +1306,8 @@ html {
     width: 100%;
     padding: 18px 16px;
     border-radius: 18px;
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     opacity: 1;
   }
 
@@ -1363,11 +1333,8 @@ html {
   }
 }
 
-/* =========================================
-   SMALL MOBILE DEVICES
-========================================= */
+/*   SMALL MOBILE DEVICES */
 @media (max-width: 480px) {
-
   .hero-title {
     font-size: 2.3rem;
   }
