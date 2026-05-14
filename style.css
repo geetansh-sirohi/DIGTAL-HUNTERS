@@ -1241,7 +1241,7 @@ html {
 
   .hero-center,
   .hero-char {
-    display: none !important;
+    display: none;
   }
 
   .hero {
