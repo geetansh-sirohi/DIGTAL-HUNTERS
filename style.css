@@ -376,17 +376,17 @@ html {
   transition: opacity 0.25s ease;
   opacity: 0.7;
 }
-.mobile-games{
+.mobile-games {
   display: flex;
   gap: 14px;
   align-items: center;
 }
-.XR-projects{
+.XR-projects {
   display: flex;
   gap: 14px;
   align-items: center;
 }
-.full-development{
+.full-development {
   display: flex;
   gap: 14px;
   align-items: center;
@@ -1275,12 +1275,12 @@ html {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
   }
-.XR-projects{
-  margin-left: 1rem;
-}
-.full-development{
-  margin-left: 2.4rem;
-}
+  .XR-projects {
+    margin-left: 1rem;
+  }
+  .full-development {
+    margin-left: 2.4rem;
+  }
   .hero-title {
     font-size: 3rem;
     line-height: 1;
